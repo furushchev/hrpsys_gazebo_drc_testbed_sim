@@ -1,0 +1,5 @@
+<launch>
+  <node name="make_drc_testbed_env" pkg="roseus" type="roseus"
+        args="$(find hrpsys_gazebo_drc_testbed_sim)/euslisp/make-drc-testbed-env-for-gazebo.l"
+        output="screen" />
+</launch>

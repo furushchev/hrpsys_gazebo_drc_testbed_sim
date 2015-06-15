@@ -1,0 +1,223 @@
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x62bb800[16374] --> 0x671fdf0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+roseus [33m;; loading roseus("7b9c984") on euslisp((9.11 leus-MacBookPro Thu Apr 9 14:36:16 JST 2015 3b3ef24 1.0.4))
+[0meustf roseus_c_util 
+
+;; load-ext-lib: jskeus 	(Sun Apr 12 17:39:52 2015)
+jsk matlib graph kdtree galib neurolib eusrapid rapid kalmanlib lmeds icp optimization octave preview queue searchlib dplib backprop bayesian qlearn soundlib sendmail linearproblem pfilter euscorba galatea jskc win32api cvoxel jskgeoc regexp festival listener talk unittest eusjasper jasper 
+;; load-ext-lib: jskeusunix 	(Sun Apr 12 17:39:53 2015)
+jskunix sericom uptime 
+;; load-ext-lib: jskeusgeo 	(Sun Apr 12 17:40:02 2015)
+jskgeo pickport kdraw primtpatch primtapp vclip pfitting sample_poisson 
+;; load-ext-lib: jskeusimage 	(Sun Apr 12 17:39:53 2015)
+jpeg_compress_struct jpeg_decompress_struct jskimage 
+;; load-ext-lib: jskeusx 	(Sun Apr 12 17:40:09 2015)
+jskx pickview winspect browse gnuplotlib graphwin 
+;; load-ext-lib: jskeusgl 	(Sun Apr 12 17:40:14 2015)
+jskgl nurbs voxel jskglc 
+;; load-ext-lib: rbraineus 	(Sun Apr 12 17:48:06 2015)
+inertia basicshape basicsensor iklib pathlib scene motionplan basicmodel state action actionunit animation autobalancer servoq 
+;; extending gcstack 0x671fdf0[32738] --> 0x6f6c750[65476] top=7d20
+tendon wire basicape bipedrobot basicqape basicdrawon basicio benet collision conversion compensation dynamics extractcoords filter_classes ikview ladder passiveJmactuators robotJmpartsmaker motioneditor robots silhouette sensormodel stable statedb task tree universal utils convertJmtoJmirtmodel 
+;; load-ext-lib: rbrainio 	(Sun Apr 12 17:48:12 2015)
+obj2eus wrl2eus eusdads dadsudf eushrp eusdxf eusmqo eusiv eusbvh eusmatlab 
+;; load-ext-lib: rbrvirtual 	(Sun Apr 12 17:48:06 2015)
+virtual_window virtual_vision_unit virtual_interpolator virtual_control_unit virtual_bbi virtual_objects virtual_world virtual_environment 
+;; load-ext-lib: rbraineusgeo 	(Sun Apr 12 17:48:07 2015)
+rbrgeo 
+;; load-ext-lib: rbraineusx 	(Sun Apr 12 17:48:10 2015)
+mewindow jointcontroller statedbwin trwin threadview pvext ikviewx benetwin statenetwin 
+;; load-ext-lib: rbraineusgl 	(Sun Apr 12 17:48:12 2015)
+rbrgl 
+(eus2urdf-for-gazebo (make-askul-gdh-cupboard) "cupboard")
+
+(irteus2urdf-for-gazebo (make-national-laundry-machine) "laundry")
+(eus2urdf-room-for-gazebo (room73b2))
+(generate-room-models "room73b2")
+;;1 face-to-face contact(s) found.
+
+;; extending gcstack 0x6f6c750[65466] --> 0x9024ec0[130932] top=fc51
+;;1 face-to-face contact(s) found.
+;;1 face-to-face contact(s) found.
+;;1 face-to-face contact(s) found.
+;; (pickview) executed
+[32mconvert-rbrain-model-to-collada #<drc-surprise-task-rope #X8ef9108 drc-surprise-task-rope  12000.0 665.0 0.0 / -1.571 0.0 0.0> :model-name test_bed-drc-surprise-task-rope-4 :output-directory /tmp
+[0m;; writing to ... test_bed-drc-surprise-task-rope-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x5bdc800[16374] --> 0x6040df0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-drc-surprise-task-rope-4-object.l and output to /tmp/
+loading /tmp/test_bed-drc-surprise-task-rope-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-rope-4/model.urdf
+;; mesh_prefix is: model://test_bed-drc-surprise-task-rope-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-rope-4/meshes
+;; Input file is: /tmp/test_bed-drc-surprise-task-rope-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<drc-surprise-task-lever #X94c1068 drc-surprise-task-lever  12665.0 0.0 0.0 / 3.142 0.0 0.0> :model-name test_bed-drc-surprise-task-lever-4 :output-directory /tmp
+[0m;; writing to ... test_bed-drc-surprise-task-lever-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x57f6800[16374] --> 0x5c5adf0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-drc-surprise-task-lever-4-object.l and output to /tmp/
+loading /tmp/test_bed-drc-surprise-task-lever-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-lever-4/model.urdf
+;; mesh_prefix is: model://test_bed-drc-surprise-task-lever-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-lever-4/meshes
+;; Input file is: /tmp/test_bed-drc-surprise-task-lever-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<drc-surprise-task-button #X8ce0688 drc-surprise-task-button  12000.0 -665.0 0.0 / 1.571 0.0 0.0> :model-name test_bed-drc-surprise-task-button-4 :output-directory /tmp
+[0m;; writing to ... test_bed-drc-surprise-task-button-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x5eaf800[16374] --> 0x6313df0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-drc-surprise-task-button-4-object.l and output to /tmp/
+loading /tmp/test_bed-drc-surprise-task-button-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-button-4/model.urdf
+;; mesh_prefix is: model://test_bed-drc-surprise-task-button-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-button-4/meshes
+;; Input file is: /tmp/test_bed-drc-surprise-task-button-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<drc-surprise-task-shower #X94a0b48 drc-surprise-task-shower  11335.0 0.0 0.0 / 0.0 0.0 0.0> :model-name test_bed-drc-surprise-task-shower-4 :output-directory /tmp
+[0m;; writing to ... test_bed-drc-surprise-task-shower-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x5396800[16374] --> 0x57fadf0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-drc-surprise-task-shower-4-object.l and output to /tmp/
+loading /tmp/test_bed-drc-surprise-task-shower-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-shower-4/model.urdf
+;; mesh_prefix is: model://test_bed-drc-surprise-task-shower-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-surprise-task-shower-4/meshes
+;; Input file is: /tmp/test_bed-drc-surprise-task-shower-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<valve #X6e6f240 no-name  1211.576 -3432.825 1130.0 / 0.245 -1.571 -2.601> :model-name test_bed-no-name-4 :output-directory /tmp
+[0m;; writing to ... test_bed-no-name-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x5750800[16374] --> 0x5bb4df0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-no-name-4-object.l and output to /tmp/
+loading /tmp/test_bed-no-name-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-no-name-4/model.urdf
+;; mesh_prefix is: model://test_bed-no-name-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-no-name-4/meshes
+;; Input file is: /tmp/test_bed-no-name-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<drc-terrain #X89c8740 drc-terrain  5000.0 -1000.0 0.0 / 0.0 0.0 0.0> :model-name test_bed-drc-terrain-4 :output-directory /tmp
+[0m;; bad stream buffer, 0x9422ac8
+;; writing to ... test_bed-drc-terrain-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x5065800[16374] --> 0x54c9df0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-drc-terrain-4-object.l and output to /tmp/
+loading /tmp/test_bed-drc-terrain-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-terrain-4/model.urdf
+;; mesh_prefix is: model://test_bed-drc-terrain-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-terrain-4/meshes
+;; Input file is: /tmp/test_bed-drc-terrain-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<drc-drill-wall #X8924450 drc-drill-wall  2000.0 -3500.0 0.0 / -1.571 0.0 0.0> :model-name test_bed-drc-drill-wall-4 :output-directory /tmp
+[0m;; writing to ... test_bed-drc-drill-wall-4-object.l
+configuring by "/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus//lib/eusrt.l"
+;; readmacro ;; object ;; packsym ;; common ;; constants ;; stream ;; string ;; loader ;; pprint ;; process ;; hashtab ;; array ;; mathtran ;; eusdebug ;; eusforeign ;; coordinates ;; tty ;; history ;; toplevel ;; trans ;; comp ;; builtins ;; par ;; intersection ;; geoclasses ;; geopack ;; geobody ;; primt ;; compose ;; polygon ;; viewing ;; viewport ;; viewsurface ;; hid ;; shadow ;; bodyrel ;; dda ;; helpsub ;; eushelp ;; xforeign ;; Xdecl ;; Xgraphics ;; Xcolor ;; Xeus ;; Xevent ;; Xpanel ;; Xitem ;; Xtext ;; Xmenu ;; Xscroll ;; Xcanvas ;; Xtop ;; Xapplwin 
+connected to Xserver DISPLAY=:0.0
+X events are being asynchronously monitored.
+;; pixword ;; RGBHLS ;; convolve ;; piximage ;; pbmfile ;; image_correlation ;; oglforeign ;; gldecl ;; glconst ;; glforeign ;; gluconst ;; gluforeign ;; glxconst ;; glxforeign ;; eglforeign ;; eglfunc ;; glutil ;; gltexture ;; glprim ;; gleus ;; glview ;; toiv-undefined ;; fstringdouble irtmath irtutil irtc irtgeoc irtgraph pgsql irtgeo euspqp pqp irtscene irtmodel irtdyna irtrobot irtsensor irtbvh irtcollada irtpointcloud irtx eusjpeg euspng png irtimage irtglrgb 
+;; extending gcstack 0x5bf2800[16374] --> 0x6056df0[32748] top=37b2
+irtgl irtviewer [34m
+EusLisp 9.11(3b3ef24 1.0.4) for Linux64 created on leus-MacBookPro(Thu Apr 9 14:36:16 JST 2015)[0m
+convert /tmp/test_bed-drc-drill-wall-4-object.l and output to /tmp/
+loading /tmp/test_bed-drc-drill-wall-4-object.l
+start converting to collada sxml
+;; Adding gazebo description
+;; Use assimp export
+;; output file is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-drill-wall-4/model.urdf
+;; mesh_prefix is: model://test_bed-drc-drill-wall-4/meshes
+;; Mesh output directory is: /home/furushchev/ros/hydro/src/rtm-ros-robotics/rtmros_tutorials/hrpsys_gazebo_tutorials/environment_models/test_bed-drc-drill-wall-4/meshes
+;; Input file is: /tmp/test_bed-drc-drill-wall-4-robot.dae
+[eus2urdf] make directory for urdf
+[eus2urdf] add file path to manifest.xml
+[eus2urdf] make model.config in urdf directory
+[eus2urdf] convert collada to urdf
+[32mconvert-rbrain-model-to-collada #<param-door #X8622068 no-name  0.0 0.0 0.0 / 0.0 0.0 0.0> :model-name test_bed-no-name-5 :output-directory /tmp
+[0m/home/furushchev/ros/hydro_parent/devel/share/euslisp/jskeus/eus/Linux64/bin/irteusgl: ERROR th=0 mismatch argument p=null
+;; Segmentation Fault.
+;; in (convert-rbrain-model-to-collada obj :model-name model-name :output-directory tmp-dir)
+;; You are still in a signal handler.
+;;Try reset or throw to upper level as soon as possible.
+;; code=-43473232 x=fd68a580 addr=ffffffffffffffff
+ckdtree not loaded
+fftlib not loaded
+svm not loaded
+graph not loaded
+Fatal: 
